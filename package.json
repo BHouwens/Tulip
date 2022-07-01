@@ -1,5 +1,5 @@
 {
-  "description": "Tulip is Tulip",
+  "description": "Tulip is an app to monitor Ethereum account transactions",
   "keywords": [
     "electron",
     "boilerplate",
@@ -11,13 +11,13 @@
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
+    "url": "git+https://github.com/BHouwens/Tulip/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
+    "url": "git+git@github.com:BHouwens/Tulip.git"
   },
   "license": "MIT",
   "author": {
