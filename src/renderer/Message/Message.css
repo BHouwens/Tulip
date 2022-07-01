@@ -1,0 +1,45 @@
+.message {
+    flex-direction: column;
+    width: 100%;
+}
+
+.message.right {
+    flex-direction: column-reverse;
+}
+
+.messageImg {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.messageImg,
+.messageText {
+    vertical-align: middle;
+    -webkit-box-shadow: 0px 9px 15px -4px rgba(0,0,0,0.05); 
+    box-shadow: 0px 9px 15px -4px rgba(0,0,0,0.05);
+}
+
+.messageText {
+    margin-left: 20px;
+    display: inline-block;
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    min-width: 80%;
+    color: #333;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.messageText h4,
+.messageText p {
+    margin-top: 0;
+}
+
+.messageText h4 {
+    margin-bottom: 3px;
+}
+
+.messageText p {
+    margin-bottom: 0;
+}

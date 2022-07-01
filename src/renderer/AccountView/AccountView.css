@@ -1,0 +1,112 @@
+.accountViewContainer {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+table {
+    width: 100%;
+    display: table;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background: white;
+    color: #333;
+    border-radius: 5px;
+}
+
+thead {
+    display: table-header-group;
+}
+
+thead tr {
+    display: table-row;
+    outline: 0;
+    vertical-align: middle;
+}
+
+tr td:first-child, 
+tr th:first-child {
+    max-width: 200px;
+}
+
+tr:last-child td {
+    border-bottom: 0;
+}
+
+tbody {
+    display: table-row-group;
+}
+
+th {
+    /*max-width: 200px;*/
+    font-weight: 700;
+    line-height: 1.5rem;
+    position: relative;
+}
+
+th, td {
+    display: table-cell;
+    padding: 12px;
+    font-size: .875rem;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid #e0e0e0;
+    letter-spacing: .01071em;
+    vertical-align: inherit;
+}
+
+td {
+    font-weight: 400;
+    line-height: 1.43;
+    /* max-width: 200px; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.numeric {
+    text-align: right;
+}
+
+.button {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    background: #08b4e4;
+    color: white;
+    text-decoration: none;
+    margin: 20px auto 0;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: #0cc9fd;
+}
+
+.tag {
+    padding: 5px 15px;
+    border-radius: 3px;
+    display: inline-block;
+    width: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tag.out {
+    background: rgba(234, 125, 7, 0.3);
+    color: #e65100;
+}
+
+.tag.in {
+    background: rgba(56, 234, 7, 0.3);
+    color: #339025;
+}
+
+.removeFromPositionLeft {
+    position: absolute;
+    left: -100px;
+    top: 0;
+}

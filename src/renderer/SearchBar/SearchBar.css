@@ -1,0 +1,22 @@
+.searchBarContainer {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.searchBar {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    outline: 0;
+    transition: 0.2s;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    -webkit-box-shadow: 0px 9px 15px -4px rgba(0,0,0,0.15); 
+    box-shadow: 0px 9px 15px -4px rgba(0,0,0,0.15);
+}
+
+.searchBar::placeholder {
+    font-style: italic;
+    opacity: 0.5;
+}
