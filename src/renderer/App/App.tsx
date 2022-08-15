@@ -30,7 +30,7 @@ const Home = () => {
         <div className="homeContent">
           <div className={`shenIntro ${isHomeClass}`}>
             <Message
-              message="Hey you, what can I help with?"
+              message="Yo, what can I help with?"
               img={ShenImage}
               side="left"
               person="Shen"
